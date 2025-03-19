@@ -1,0 +1,61 @@
+/* Reset de estilos predeterminados */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Encabezado */
+header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* Contenedor de los regalos */
+.gift-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+/* Estilos para cada tarjeta de regalo */
+.gift-card {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 150px;
+}
+
+.gift-card img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.gift-card p {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/* Estilo del pie de página */
+footer {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
